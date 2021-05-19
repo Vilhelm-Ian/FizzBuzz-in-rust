@@ -23,8 +23,7 @@ fn main() {
             }
         }
         if result == String::new() {
-            println!("{:?}", i);
-            continue;
+            result = i.to_string();
         }
         println!("{:?}", result);
     }
